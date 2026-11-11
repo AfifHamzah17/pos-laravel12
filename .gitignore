@@ -1,0 +1,51 @@
+# --- Node.js / Vite / React ---
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# --- Laravel Framework ---
+/vendor/
+/.env
+/.env.backup
+/.env.production
+/public/build/
+/public/hot/
+/public/storage
+/storage/*.key
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/app/public/*
+/storage/logs/*
+bootstrap/cache/*.php
+
+# --- Database SQLite & Testing ---
+/database/*.sqlite
+/database/*.sqlite-journal
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+
+# --- IDE & Text Editors ---
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+/public/hot
